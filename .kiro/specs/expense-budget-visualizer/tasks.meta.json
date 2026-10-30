@@ -1,0 +1,125 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create `index.html` with four non-overlapping regions (Total_Balance, Input_Form, Transaction_List, Pie_Chart) referencing `css/style.css` and `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489044
+      },
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291507420
+      }
+    ],
+    "1.2 Create `css/style.css` laying out the four regions with no overlap and adjacent regions separated by at least a 16px gap or a visible border, plus base theming": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489286
+      },
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291513514
+      }
+    ],
+    "1.3 Set up the test harness with Vitest, jsdom, fast-check, and Playwright": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489434
+      },
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291520385
+      }
+    ],
+    "2.1 Implement the Transaction factory and the `sumAmounts` / `formatBalance` pure helpers in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489523
+      }
+    ],
+    "2.3 Implement the `calculateCategoryTotals` and `calculateSliceAngles` pure helpers in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489602
+      }
+    ],
+    "3.1 Implement the Validator (`validateItemName`, `validateAmount`, `validateCategory`, composite `validate`) in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489683
+      }
+    ],
+    "4.1 Implement the Storage module (`isAvailable`, `save`, `load`) in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489748
+      }
+    ],
+    "5. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489846
+      }
+    ],
+    "6.1 Implement the StateManager (`init`, `add`, `delete`, `getAll`, `subscribe`, `notify`) in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489915
+      }
+    ],
+    "7.1 Implement the ListRenderer in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291489976
+      }
+    ],
+    "7.3 Implement the BalanceRenderer in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291490041
+      }
+    ],
+    "7.4 Implement the ChartRenderer in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291490102
+      }
+    ],
+    "8.1 Implement the FormController in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291490174
+      }
+    ],
+    "9.1 Implement `App.init` in `js/app.js`": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291490243
+      }
+    ],
+    "10. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "95a34f04-0579-422b-a9ec-dfb5949285b1",
+        "chatSessionId": "sess_8c5e3832-a9e5-4211-ae6d-5d2c37a5a917",
+        "timestamp": 1793291490305
+      }
+    ]
+  }
+}
